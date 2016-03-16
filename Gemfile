@@ -16,7 +16,7 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
-gem 'camaleon_cms', git: 'https://github.com/owen2345/camaleon-cms.git'
+gem 'camaleon_cms', git: 'https://github.com/immense/camaleon-cms.git'
 # gem "camaleon_post_clone", github: "owen2345/camaleon-post-clone"
 # gem "camaleon_post_order", github: 'owen2345/camaleon-post-order-plugin'
 # gem 'camaleon_ecommerce', github:  'owen2345/camaleon-ecommerce'

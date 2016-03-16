@@ -1,6 +1,6 @@
 GIT
-  remote: https://github.com/owen2345/camaleon-cms.git
-  revision: 5f1d33138ace6427b8d418178374ad8bdf257b72
+  remote: https://github.com/immense/camaleon-cms.git
+  revision: 4fe04259b1e2237c6d01f35b89cde9d126d2986c
   specs:
     camaleon_cms (2.1.1.3)
       aws-sdk (~> 2)
@@ -14,6 +14,7 @@ GIT
       mini_magick
       mobu
       protected_attributes
+      tinymce-rails (~> 4.3)
       will_paginate
       will_paginate-bootstrap
 
@@ -57,12 +58,12 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     arel (6.0.3)
-    aws-sdk (2.2.26)
-      aws-sdk-resources (= 2.2.26)
-    aws-sdk-core (2.2.26)
+    aws-sdk (2.2.27)
+      aws-sdk-resources (= 2.2.27)
+    aws-sdk-core (2.2.27)
       jmespath (~> 1.0)
-    aws-sdk-resources (2.2.26)
-      aws-sdk-core (= 2.2.26)
+    aws-sdk-resources (2.2.27)
+      aws-sdk-core (= 2.2.27)
     bcrypt (3.1.11)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
@@ -297,6 +298,8 @@ GEM
     thor (0.19.1)
     thread_safe (0.3.5)
     tilt (2.0.2)
+    tinymce-rails (4.3.8)
+      railties (>= 3.1.1)
     trollop (2.1.2)
     turbolinks (2.5.3)
       coffee-rails
